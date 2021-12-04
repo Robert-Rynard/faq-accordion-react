@@ -1,0 +1,49 @@
+.box {
+  border-bottom: 0.5px solid var(--lt-blay);
+}
+
+.title {
+  font-weight: 400;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.arrow {
+  margin-left: auto;
+  transition: transform 0.5s ease-out;
+}
+
+.body {
+  padding-bottom: 1rem;
+  max-height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.clicked p {
+  max-height: 100px;
+  visibility: visible;
+  transition: max-height 0.5s ease-out;
+}
+
+.clicked img {
+  transform: rotate(180deg);
+}
+
+@media (hover: hover) {
+  .title:hover {
+    color: var(--soft-red);
+  }
+}
+
+@media (min-width: 975px) {
+}

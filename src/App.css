@@ -1,38 +1,106 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+:root {
+  --dk-blue: hsl(238, 29%, 16%);
+  --soft-red: hsl(14, 88%, 65%);
+  --soft-violet: hsl(273, 75%, 66%);
+  --soft-blue: hsl(240, 73%, 65%);
+  --v-dk-blay: hsl(237, 12%, 33%);
+  --dk-blay: hsl(240, 6%, 50%);
+  --lt-blay: hsl(240, 5%, 91%);
+  font-size: 12px;
+  font-family: "Kumbh Sans", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(var(--soft-violet), var(--soft-blue));
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 2rem;
+  background-color: white;
+  margin: 13rem 2rem 3rem;
+  border-radius: 24px;
+  min-width: 30rem;
+  box-shadow: 0 16px 15px -10px rgba(0, 0, 0, 0.342);
 }
 
-.App-link {
-  color: #61dafb;
+.img {
+  background-image: url(./images/illustration-woman-online-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 8rem;
+  position: relative;
+  top: -11.5rem;
+  filter: drop-shadow(0 30px 0 #f0f0fc);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.card h2 {
+  text-align: center;
+  font-size: 3rem;
+  margin: -7rem 0 2rem 0;
+}
+
+@media (min-width: 975px) {
+  .main {
+    position: relative;
   }
-  to {
-    transform: rotate(360deg);
+
+  .card {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    min-height: 50rem;
+    margin: 5rem;
+  }
+
+  .card::before {
+    content: url(./images/illustration-box-desktop.svg);
+    position: absolute;
+    left: -6rem;
+    top: 22.5rem;
+    z-index: 1;
+    filter: drop-shadow(0px 10px 10px #6f4dc4f6);
+  }
+
+  .img {
+    background-image: url(./images/illustration-woman-online-desktop.svg);
+    background-position: bottom left;
+    position: relative;
+    left: -12rem;
+    top: 0;
+    padding: 16rem 22rem;
+    filter: drop-shadow(0 0px 0 #f0f0fc);
+  }
+
+  .img::before {
+    content: url(./images/illustration-woman-online-desktop.svg);
+    position: absolute;
+    top: 2rem;
+    left: 0rem;
+    z-index: 1;
+  }
+
+  .img::after {
+    content: url(./images/bg-pattern-desktop.svg);
+    position: absolute;
+    top: -28rem;
+    left: -41rem;
+  }
+
+  .card h2 {
+    text-align: left;
+    margin: 2rem 0;
+  }
+
+  .faq {
+    max-width: 50%;
+    margin-left: -8rem;
   }
 }
