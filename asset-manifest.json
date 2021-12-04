@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/faq-accordion-react/static/css/main.bc804465.chunk.css",
+    "main.js": "/faq-accordion-react/static/js/main.ad089bd9.chunk.js",
+    "main.js.map": "/faq-accordion-react/static/js/main.ad089bd9.chunk.js.map",
+    "runtime-main.js": "/faq-accordion-react/static/js/runtime-main.a62349b0.js",
+    "runtime-main.js.map": "/faq-accordion-react/static/js/runtime-main.a62349b0.js.map",
+    "static/js/2.c170511d.chunk.js": "/faq-accordion-react/static/js/2.c170511d.chunk.js",
+    "static/js/2.c170511d.chunk.js.map": "/faq-accordion-react/static/js/2.c170511d.chunk.js.map",
+    "static/js/3.c5bb2fc8.chunk.js": "/faq-accordion-react/static/js/3.c5bb2fc8.chunk.js",
+    "static/js/3.c5bb2fc8.chunk.js.map": "/faq-accordion-react/static/js/3.c5bb2fc8.chunk.js.map",
+    "index.html": "/faq-accordion-react/index.html",
+    "static/css/main.bc804465.chunk.css.map": "/faq-accordion-react/static/css/main.bc804465.chunk.css.map",
+    "static/js/2.c170511d.chunk.js.LICENSE.txt": "/faq-accordion-react/static/js/2.c170511d.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/faq-accordion-react/static/media/illustration-woman-online-mobile.fe928f9c.svg",
+    "static/media/icon-arrow-down.852fa301.svg": "/faq-accordion-react/static/media/icon-arrow-down.852fa301.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a62349b0.js",
+    "static/js/2.c170511d.chunk.js",
+    "static/css/main.bc804465.chunk.css",
+    "static/js/main.ad089bd9.chunk.js"
+  ]
+}
