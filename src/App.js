@@ -1,6 +1,6 @@
 import "./App.css";
 
-import Question from "./components/Question";
+import Accordian from "./components/Accordian";
 
 function App() {
   const questions = [
@@ -37,9 +37,7 @@ function App() {
         <div className="img"></div>
         <div className="faq">
           <h2>FAQ</h2>
-          {questions.map((question) => (
-            <Question key={question.id} {...question} />
-          ))}
+          <Accordian questions={questions} />
         </div>
       </div>
     </div>

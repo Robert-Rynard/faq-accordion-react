@@ -1,0 +1,29 @@
+.question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.title {
+  font-weight: 400;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.arrow {
+  margin-left: auto;
+  transition: transform 0.35s ease-out;
+}
+
+.clicked {
+  transform: rotate(180deg);
+}
+
+@media (hover: hover) {
+  .title:hover {
+    color: var(--soft-red);
+  }
+}

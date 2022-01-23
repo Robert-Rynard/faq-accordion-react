@@ -46,6 +46,11 @@ body {
   margin: -7rem 0 2rem 0;
 }
 
+.faq {
+  min-width: 25rem;
+  max-width: 25rem;
+}
+
 @media (min-width: 975px) {
   .main {
     position: relative;
@@ -100,6 +105,7 @@ body {
   }
 
   .faq {
+    min-width: 40rem;
     max-width: 50%;
     margin-left: -8rem;
   }
